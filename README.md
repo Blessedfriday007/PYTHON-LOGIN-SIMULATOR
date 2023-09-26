@@ -43,11 +43,11 @@ If user A selects the option (b), he should be rompted to input his username and
 with these details, add the user info into an existing list of users 
 
 Once added, print a success message and return the initial options that included the login option.
-
+```
 ### Optional goals
-
+```
 Add a validation, to prevent the same username from being registered twice on the program.
-
+```
 ### Case (c) Exit
 
 ```
