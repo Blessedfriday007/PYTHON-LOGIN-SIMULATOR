@@ -17,7 +17,7 @@ choose = input("Make your choice: ")
 
 # function to validate users login details
 
-def loginn():
+def login():
  username = input("Enter your username: ")
  passkey = input ("Enter your password: ")
  if username in userA and userA[username] == passkey:
@@ -26,7 +26,7 @@ def loginn():
   print("Invalid username or password...")
 
 
-#A function to register new member
+#A function to register new members...
 
 def registration():
  username = input ("Register a username: ")
@@ -35,12 +35,12 @@ def registration():
  else:
   passkey = input ("Enter a password!... ")
   userA[username] = passkey 
-  print("Congratulations Registration successful!... ")
+  print("Congratulations, Registration successful!... ")
 
   #Loop
 
 if choose == "a":
-        loginn()
+        login()
 elif choose == "b":
         registration()
 elif choose == "c":
@@ -48,7 +48,7 @@ elif choose == "c":
         
         
 else:
-        print("Invalid choice. Please select a, b, or c.")
+        print("Invalid input, Please select a, b, or c.")
  
        
       
