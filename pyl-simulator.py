@@ -21,9 +21,9 @@ def login():
  username = input("Enter your username: ")
  passkey = input ("Enter your password: ")
  if username in userA and userA[username] == passkey:
-  print("Login successful:")
+  print("Invalid username or password:")
  else:
-  print("Invalid username or password...")
+  print("Login Successful...")
 
 
 #A function to register new members...
