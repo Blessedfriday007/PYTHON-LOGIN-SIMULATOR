@@ -8,11 +8,11 @@ userA = {}
 def action():
  
  print("Welcome to the python simulator program...")
-print("Welcome to the python simulator program..")
-print("Please choose an option")
-print("(a) Login")
-print("(b) Register")
-print("(c) Exit")
+print("Welcome to the python simulator program..\n")
+print("Please choose an option\n")
+print("(a) Login\n")
+print("(b) Register\n")
+print("(c) Exit\n")
 choose = input("Make your choice: ")
 
 # function to validate users login details
