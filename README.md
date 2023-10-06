@@ -63,6 +63,6 @@ Persist all registered user information through program runs, using files.
 
 ```
 
-**Note**: *Program must not exit, except forcefully closed or user exits following the exit process. In other words, this is a continous running program.*
+**Note**: *Program must not exit, except forcefully closed or user exits following the exit process. In other words, this is a continous running program...*
 
 
