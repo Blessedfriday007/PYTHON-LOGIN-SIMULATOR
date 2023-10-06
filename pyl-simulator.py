@@ -19,11 +19,11 @@ choose = input("Make your choice: ")
 
 def login():
  username = input("Enter your username: ")
- passkey = input ("Enter your password: ")
+ passkey = input ("Enter your password:")
  if username in userA and userA[username] == passkey:
-  print("Invalid username or password:")
+  print("Invalid username or password:\n")
  else:
-  print("Login Successful...")
+  print("Login Successful...\n")
 
 
 #A function to register new members...
@@ -31,12 +31,12 @@ def login():
 def registration():
  username = input ("Register a username: ")
  if username in userA:
-  print("This username is not available, or already taken!... ")
+  print("This username is not available, or already taken!...")
  else:
   passkey = input ("Enter a password!... ")
   userA[username] = passkey 
-  print("Congratulations, Registration successful!... ")
-  
+  print("Congratulations, Registration successful!...\n ")
+  return login()
 
   #Loop
 
