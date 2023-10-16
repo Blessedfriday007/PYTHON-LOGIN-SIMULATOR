@@ -46,10 +46,12 @@ elif choose == "b":
         registration()
 elif choose == "c":
         print("Thank you for using the python simulator program Goodbye!")
-        
+         
         
 else:
         print("Invalid input, Please select a, b, or c")
+        
+        
  
        
       
