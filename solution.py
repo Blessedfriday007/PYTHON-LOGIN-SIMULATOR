@@ -112,7 +112,7 @@ def start():
         elif action == "b":
             register()
         elif action == "c":
-            msg = f"{Fore.BLUE}Thank you for chooding pySimulator... Goodbye!{Style.RESET_ALL}"
+            msg = f"{Fore.BLUE}Thank you for choosing pySimulator... Goodbye!{Style.RESET_ALL}"
             print(msg)
             raise SystemExit(0)
         else:
